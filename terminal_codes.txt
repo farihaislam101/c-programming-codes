@@ -1,0 +1,3 @@
+Compile code: gcc for_loop2.c -o my-program.exe
+
+Run code: ./my-program.exe
