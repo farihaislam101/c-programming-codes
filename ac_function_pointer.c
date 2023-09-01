@@ -1,9 +1,10 @@
 #include<stdio.h>
-//Write a function to calculate the sum , product &average of two numbers. Print that average in the main function
+//Write a function to calculate the sum , product &average of two numbers. Print that sum, product & average in the main function
 void calculation(int a, int b,int *sum, int *prod, int *avg){
     *sum= a+b;
     *prod= a*b;
     *avg= (a+b)/2;
+    
 }
 int main (){
     int a =3;
