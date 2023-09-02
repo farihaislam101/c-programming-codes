@@ -2,9 +2,9 @@
 //swap 2 numbers, a & b.
 // call by value
 void swap(int a, int b){
-    int c=a;
+    int temp=a;
     a = b;
-    b = c;
+    b = temp;
     printf("a=%d & b=%d\n",a,b);
 }
 //call by referance
@@ -15,8 +15,8 @@ void swap(int a, int b){
         printf("a=%d & b=%d\n",*a,*b);
     }
     int main(){
-        int x =3;
-        int y =5;
+        int x =22;
+        int y =44;
         swap(x,y);
         printf("x=%d & y=%d\n",x,y);
         _swap(&x,&y);
