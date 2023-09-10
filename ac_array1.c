@@ -3,11 +3,11 @@
 #include<stdio.h>
 int main(){
     int price[3],i;
-    printf("Enter 3 price: ");
+    printf("Enter 3 price: \n");
     
     for(i=0; i<3; i++)
     {
-        printf("price[%d]", i);
+        printf("price[%d] = ", i);
         scanf("%d",&price[i]);
     }
    // scanf("%f", &price[0]);

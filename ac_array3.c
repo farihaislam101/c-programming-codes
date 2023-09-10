@@ -1,81 +1,30 @@
-//Write a function to count the number of odd numbers in an array
+//write a function to count odd numbers in a array
 #include<stdio.h>
-int countOdd(int arr[], int n){
-    int count =0;
-    for(int i=0; i<n; i++){
-        if (arr[i] % 2!=0){
+int countOdd(int a[], int n ){
+    int count = 0;
+    for(int i=0; i<n; i++)
+    {
+        if(a[i] % 2 == 1)
+        {
             count++;
         }
     }
     return count;
+
 }
     int main(){
-        int arr[]={1, 2, 3, 4, 5, 6 };
-        printf("%d",countOdd(arr,6));
+        int b[10];
+        // taking input
+        printf("Enter 10 numbers: \n");
+        for(int i=0; i<10; i++)
+        {
+           printf("b[%d]=", i );
+           scanf("%d",&b[i]); 
+
+        }
+
+        // for(int i =0; i<10; i++){
+        //     printf("%d ", b[i]);
+        // }
+            printf("The number of odd number is:  %d ", countOdd(b,10));
     }
-
-
-
-
-
-
-
-
-
-
-
-    
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    

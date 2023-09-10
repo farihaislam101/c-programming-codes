@@ -11,7 +11,7 @@ void reverse(int arr[], int n){
 }
     void printArr(int arr[], int n){
         for (int i=0; i<n; i++){
-            printf("%d\n", arr[i]);
+            printf("%d ", arr[i]);
         }
     }
     int main(){
