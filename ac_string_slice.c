@@ -8,7 +8,7 @@ void slice(char str[], int n, int m){// n & m are valid value
     int i;
     for(i=n; i<=m; i++,j++){
        newStr[j]= str[i]; 
-       printf(newStr[j])
+       printf(newStr);
     }
     newStr[j]='\0';
     printf("%s",newStr);

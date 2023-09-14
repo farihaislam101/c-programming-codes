@@ -2,16 +2,16 @@
 //create a string firstname & secondname to store details of user & print all the character s using a loop
 
 #include<stdio.h>
-void printString( char arr[]){
-for(int i=0; arr[i]!='\0'; i++){
-    printf("%c",arr[i]);
-} 
-printf("\n");   
+
+void printString(char arr[]){
+    for(int i=0; arr[i]!='\0'; i++){
+        printf("%c", arr[i]);
+    }
+    printf("\n");
 }
 int main(){
-    char firstName[]="FARIHA";
-    char lastName[]="ANIKA";
+    char firstName[]="Fariha";
+    char lastName[]="Anika";
     printString(firstName);
     printString(lastName);
-
 }
