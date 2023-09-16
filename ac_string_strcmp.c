@@ -1,7 +1,7 @@
 /*strcmp(firstStr, secStr)
  compares two strings & returns a value
  0 -> string equal
- positive-> first > second(ASSCII)
+ positive-> first > second(ASCII)
  negetive -> first < second(ASCII)
  */
 #include<stdio.h>

@@ -3,9 +3,9 @@
 #include<string.h>
  
  int main(){
-    char oldStr[]= "oldstr";
-    char newStr[]= "newstr";
-    strcpy(newStr, oldStr);
-    puts(newStr);
+    char oldStr[]= "anika";
+    char newStr[]= "jarin";
+    strcpy(oldStr, newStr);
+    puts(oldStr);
 
  }

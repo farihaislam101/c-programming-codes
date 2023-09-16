@@ -4,8 +4,8 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
- char firstStr[]="Hello ";
- char secStr[]="world";
+ char firstStr[]="Fariha ";
+ char secStr[]="Islam";
  strcat(firstStr,secStr);
  puts(firstStr);
 }
